@@ -12,7 +12,7 @@ public class MyAggregationStrategy implements AggregationStrategy {
         }
 
         String input2 = newExchange.getIn().getBody(String.class);
-        if ("STOP".equalsIgnoreCase(input2)) {
+        if ("END".equalsIgnoreCase(input2)) {
             return oldExchange;
         }
         String input1 = oldExchange.getIn().getBody(String.class);

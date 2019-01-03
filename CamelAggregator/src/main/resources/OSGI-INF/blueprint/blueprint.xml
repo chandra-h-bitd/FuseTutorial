@@ -13,7 +13,7 @@
           <constant>true</constant>
         </correlationExpression>
         <completionPredicate>
-          <simple>${body} contains 'STOP'</simple>
+          <simple>${body} contains 'END'</simple>
         </completionPredicate>
         <transform>
           <simple>The result is: ${body}</simple>
