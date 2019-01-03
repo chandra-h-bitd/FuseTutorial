@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="CamelRouteFeaturesRepo">
+  <feature name="camel-route-bundle">
+    <bundle>file:/home/chardahe/Desktop/Workspaces/CamelRoute/CamelRoute/target/CamelRoute-0.0.1-SNAPSHOT.jar</bundle>
+  </feature>
+</features>
