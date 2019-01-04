@@ -6,7 +6,9 @@
 
       <bean id="myStrategy" class="ftutorial.camel.MyAggregationStrategy"/>
     <camelContext id="blueprintContext" trace="false" xmlns="http://camel.apache.org/schema/blueprint">
-            <route>
+    
+    <!--Aggregator route  -->
+            <!-- <route>
       <from uri="stream:in?promptMessage=Enter a string to be added (enter STOP to end): &amp;promptDelay=500"/>
  	<aggregate strategyRef="myStrategy" eagerCheckCompletion="true">
         <correlationExpression>
@@ -20,6 +22,26 @@
         </transform>
         <to uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox/output.txt"/>
       </aggregate>
-    </route>
+    </route> -->
+    
+    
+    <!-- Splitter route  -->  
+    <route>
+            <from uri="timer://simpleTimer?period=30000" />
+            <setBody>
+          		<simple>
+          		Chandra
+          		Avinash
+          		Shsingh
+          		</simple>
+            </setBody>
+            <log message="Split by next line" />
+            <split>
+                <tokenize token="\n"/>
+                <log message="${body}" />
+              <!--   <to uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox/splitterOut.txt"/> -->
+            </split>
+        </route>
+        
     </camelContext>
 </blueprint>
