@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:camel="http://camel.apache.org/schema/blueprint"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+    <bean class="ftutorial.camel.MyAggregationStrategy" id="myStrategy"/>
+    <camelContext id="blueprintContext" trace="false" xmlns="http://camel.apache.org/schema/blueprint">
+    
+    <!-- Enrich route -->
+<!--     <route id="enrich">
+	    <from uri="file:/home/chardahe/Pictures/Training/CamelFiles/Splitter"/>
+	    <enrich strategyRef="myStrategy">
+                         
+                        <constant>file:/home/chardahe/Pictures/Training/CamelFiles/Enriched</constant>
+                        </enrich>
+  </route> -->
+
+    <!-- pollEnrich route -->
+
+<route id="pollEnrich">
+		<from id="consumer1" uri="timer://timerName?period=1000"/>
+        <pollEnrich>
+            <constant>file:/home/chardahe/Pictures/Training/CamelFiles/PollEnrichConsumer</constant>
+        </pollEnrich>
+        <log message="Polled Message from consumer ::  ${body}"/>
+        </route>
+    </camelContext>
+</blueprint>
