@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:camel="http://camel.apache.org/schema/blueprint"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+    <bean class="ftutorial.camel.MyAggregationStrategy" id="myStrategy"/>
+    <camelContext id="blueprintContext" trace="false" xmlns="http://camel.apache.org/schema/blueprint">
+        
+        <route id="multicast">
+            <from id="_from1" uri="file:/home/chardahe/Pictures/Training/CamelFiles/request"/>
+            <setHeader headerName="CamelHttpMethod" id="_setHeader1">
+                <constant>POST</constant>
+            </setHeader>
+            <setHeader headerName="Content-Type" id="_setHeader2">
+                <constant>application/json</constant>
+            </setHeader>
+            <setBody id="_setBody1">
+                <!-- <constant>${body}</constant> -->
+                <simple>${body}</simple>
+            </setBody>
+            <multicast id="_multicast1" stopOnException="true" strategyRef="myStrategy">
+                <to id="_to3" uri="jetty:http://localhost:8080/getCandidateName"/>
+                <to id="_to4" uri="jetty:http://localhost:8080/getCandidateAddress"/>
+                <to id="_to5" uri="jetty:http://localhost:8080/getCandidateCompanyName"/>
+            </multicast>
+            <to id="_to6" uri="direct:start"/>
+        </route>
+        <route id="wiretap">
+            <from id="consumer1" uri="direct:start"/>
+            <wireTap id="_wireTap1" uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox">
+                <setHeader headerName="filebody">
+                    <simple> ${body}</simple>
+                </setHeader>
+            </wireTap>
+            <to id="_to1" uri="file:/home/chardahe/Pictures/Training/CamelFiles/destination"/>
+        </route>
+        <route id="wiretap2">
+            <from id="consumer2" uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox"/>
+            <setHeader headerName="CamelHttpMethod" id="_setHeader3">
+                <constant>GET</constant>
+            </setHeader>
+            <enrich id="_enrich1" strategyRef="myStrategy">
+                <constant>jetty:http://localhost:8080/getCompanyBonus</constant>
+            </enrich>
+            <log id="_log2" message="${body}"/>
+            <to id="_to2" uri="remoteActivemq:WireTapQ"/>
+        </route>
+        <route id="pollenrich">
+            <from id="polling" uri="timer://timerName?period=1000"/>
+            <pollEnrich id="_pollEnrich1">
+                <constant>remoteActivemq:WireTapQ</constant>
+            </pollEnrich>
+            <log id="_log1" message="Polling Messages ::  ${body}"/>
+        </route>
+    </camelContext>
+    <bean class="org.apache.activemq.camel.component.ActiveMQComponent" id="remoteActivemq">
+        <property name="trustAllPackages" value="true"/>
+        <property name="brokerURL" value="tcp://localhost:61616"/>
+        <property name="userName" value="admin"/>
+        <property name="password" value="admin"/>
+    </bean>
+    <!--     <bean id="jetty:http" class="org.apache.camel.component.http4.HttpComponent">
+    <property name="sslContextParameters" ref="sslContext"/>
+</bean>
+     <sslContextParameters id="sslContext" xmlns="http://camel.apache.org/schema/blueprint"> 
+    <trustManagers>
+      <keyStore resource="/home/chardahe/Pictures/Training/Keystore/keystore.jks" password="changeit"/>                   
+    </trustManagers>              
+</sslContextParameters> -->
+</blueprint>
