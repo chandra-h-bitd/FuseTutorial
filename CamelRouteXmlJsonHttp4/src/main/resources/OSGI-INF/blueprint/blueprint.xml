@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:camel="http://camel.apache.org/schema/blueprint"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+    <bean class="ftutorial.camel.Employee" id="xmljson"/>
+    <camelContext id="blueprintContext" trace="false" xmlns="http://camel.apache.org/schema/blueprint">
+        <route id="_route1">
+            <from id="_from5" uri="file:/home/chardahe/Pictures/Training/CamelFiles/requestXml"/>
+            <marshal id="_marshal1" ref="xmljson"/>
+            <setHeader headerName="CamelHttpMethod" id="_setHeader1">
+                <constant>POST</constant>
+            </setHeader>
+            <setHeader headerName="Content-Type" id="_setHeader2">
+                <constant>application/json</constant>
+            </setHeader>
+            <setBody id="_setBody1">
+                <simple>${body}</simple>
+            </setBody>
+            <to id="_to5" uri="http4://localhost:8443/getEmployeeProfile"/>
+            <log id="_log1" message="${body}"/>
+            
+        </route>
+        
+    </camelContext>
+    
+    
+    <bean id="http4" class="org.apache.camel.component.http4.HttpComponent">
+    <property name="sslContextParameters" ref="sslContext"/>
+</bean>
+     <sslContextParameters id="sslContext" xmlns="http://camel.apache.org/schema/blueprint"> 
+    <trustManagers>
+      <keyStore resource="/home/chardahe/Pictures/Training/Keystore/ssl-server.jks" password="changeit"/>                   
+    </trustManagers>              
+</sslContextParameters>
+</blueprint>
