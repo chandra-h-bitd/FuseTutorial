@@ -2,38 +2,33 @@
 <blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
     xmlns:camel="http://camel.apache.org/schema/blueprint"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
-    
-    <bean class="ftutorial.camel.HelloBean" id="helloBean" />
-    <bean class="ftutorial.camel.FileProcessor" id="fileprocessor" />
+    <bean class="ftutorial.camel.HelloBean" id="helloBean"/>
+    <bean class="ftutorial.camel.FileProcessor" id="fileprocessor"/>
     <camelContext id="blueprintContext" trace="false" xmlns="http://camel.apache.org/schema/blueprint">
-        <route id="beanRoute">
-                       
-<!--             <from uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox"/>
-<to uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox"/> -->
-
-
-<!--  Using Bean -->
-
-<from uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox"/>
-<bean ref="helloBean"/>
+        <route id="route1" startupOrder="1">
+                        <from id="_from1" uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox"/>
 <to uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox"/>
-
-
-<!--  Using Processor -->
-
-<!-- <from uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox"/>
+                </route>
+<!--              Using Bean -->
+            
+           <route id="route2" startupOrder="2"> 
+            <from id="_from2" uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox"/>
+            <bean id="_bean1" ref="helloBean"/>
+            <to id="_to1" uri="file:/home/chardahe/Pictures/Training/CamelFiles/destination"/>
+            </route>
+            <!--  Using Processor -->
+            <route id="route3" startupOrder="3">
+            <from id="_from3" uri="file:/home/chardahe/Pictures/Training/CamelFiles/destination"/>
 <process ref="fileprocessor"/>
-<to uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox"/> -->
-
-
-<!--  Using Transform -->
-
-<!-- <from uri="file:/home/chardahe/Pictures/Training/CamelFiles/inbox"/>
+<to uri="file:/home/chardahe/Pictures/Training/CamelFiles/request"/>
+    </route>
+            <!--  Using Transform -->
+            <route id="route4" startupOrder="4">
+            <from id="_from4" uri="file:/home/chardahe/Pictures/Training/CamelFiles/request"/>
 <transform>
 <simple>Hello ${body} how are you?</simple>
 </transform>
-<to uri="file:/home/chardahe/Pictures/Training/CamelFiles/outbox"/> -->
-
+<to uri="file:/home/chardahe/Pictures/Training/CamelFiles/response"/>
         </route>
     </camelContext>
 </blueprint>
