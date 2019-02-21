@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cxf="http://camel.apache.org/schema/cxf"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+    ">
+
+  
+  <camelContext xmlns="http://camel.apache.org/schema/spring">
+    <route> <!-- route starts from the cxf webservice -->
+      <from uri="timer:timer?period=9000" />
+      <process ref="activityBean"></process>
+     
+      <to uri="cxf:bean:externalWsdl?dataFormat=POJO"/>
+      <bean method="profileresponse" ref="activityBean"/>
+    </route> <!-- test route -->
+   
+
+
+  </camelContext>
+  
+<cxf:cxfEndpoint id="externalWsdl"
+address="http://localhost:8182/service"
+wsdlURL="http://localhost:8182/service?wsdl"
+serviceName="WebServiceImplService"
+serviceClass="rh.com.WebServiceImpl"
+>
+    <cxf:properties>
+        <entry key="portName" value="WebServiceImplPort"/>
+          <entry key="defaultOperationName" value="test"/>
+    </cxf:properties>
+</cxf:cxfEndpoint>
+
+
+<bean id="activityBean" class="org.cx.ActivityBean"></bean>
+
+    </beans>

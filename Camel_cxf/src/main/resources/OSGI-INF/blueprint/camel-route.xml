@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:cxf="http://camel.apache.org/schema/blueprint/cxf"
+           xsi:schemaLocation="
+             http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+             http://camel.apache.org/schema/blueprint/cxf http://camel.apache.org/schema/blueprint/cxf/camel-cxf.xsd
+             http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+
+  <cxf:cxfEndpoint id="profileEndpoint"
+                   address="/profile/"
+                   serviceClass="org.cx.ProfileEndpoint"/>
+
+  <camelContext xmlns="http://camel.apache.org/schema/blueprint">
+  
+    <route>
+      <from uri="cxf:bean:profileEndpoint" />
+      <to uri="seda:profilerequest" />
+      <transform>
+        <constant>OK</constant>
+      </transform>
+    </route>
+  
+    <route>
+      <from uri="seda:profilerequest" />
+      <to uri="mock:end"/>
+    </route>
+  </camelContext>
+
+</blueprint>
