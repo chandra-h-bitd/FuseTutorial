@@ -1,0 +1,61 @@
+oc project openshift
+
+docker login -u $(oc whoami) -p $(oc whoami -t) localhost:5000
+
+oc replace --force -f https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/72-1.2.GA/amq-broker-7-image-streams.yaml
+
+oc replace --force -f https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/72-1.2.GA/amq-broker-7-scaledown-controller-image-streams.yaml
+
+oc import-image amq-broker-72-openshift:1.2
+
+oc import-image amq-broker-72-scaledown-controller-openshift:1.0
+
+for template in amq-broker-72-basic.yaml \
+amq-broker-72-ssl.yaml \
+amq-broker-72-custom.yaml \
+amq-broker-72-persistence.yaml \
+amq-broker-72-persistence-ssl.yaml \
+amq-broker-72-persistence-clustered.yaml \
+amq-broker-72-persistence-clustered-ssl.yaml;
+do
+oc replace --force -f \
+https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/72-1.2.GA/templates/${template}
+done
+
+oc new-project av-amq-cluster
+
+oc policy add-role-to-user view -z default
+
+keytool -genkey -alias broker -keyalg RSA -keystore broker.ks
+
+keytool -export -alias broker -keystore broker.ks -file broker_cert
+
+keytool -genkey -alias client -keyalg RSA -keystore client.ks
+
+keytool -import -alias broker -keystore client.ts -file broker_cert
+
+keytool -export -alias client -keystore client.ks -file client_cert
+
+keytool -import -alias client -keystore broker.ts -file client_cert
+
+oc create secret generic amq72-secret --from-file=broker.ks --from-file=broker.ts
+oc secrets add sa/deployer secret/amq72-secret
+oc secrets add sa/builder secret/amq72-secret
+oc secrets add sa/default secret/amq72-secret
+
+
+oc create -n av-amq-cluster -f https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/72-1.2.GA/templates/amq-broker-72-persistence-clustered-controller.yaml
+
+wget https://raw.githubusercontent.com/jboss-container-images/jboss-amq-7-broker-openshift-image/amq-broker-72-dev/templates/amq-broker-72-persistence-clustered.yaml
+
+oc replace --force -f amq-broker-72-persistence-clustered.yaml -n openshift
+
+oc new-app --template=openshift/amq-broker-72-persistence-clustered \
+-e AMQ_PROTOCOL=openwire,amqp,stomp,mqtt \
+-e AMQ_QUEUES=SendSmsQueue \
+-e AMQ_ADDRESSES=SendSmsQueue \
+-e AMQ_USER=admin \
+-e ADMIN_PASSWORD=admin \
+-p VOLUME_CAPACITY=1Gi
+
+oc scale statefulset broker-amq --replicas=3

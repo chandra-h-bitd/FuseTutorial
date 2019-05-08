@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Red Hat Internal Setup Guide
+Comment=Red Hat Internal Setup Guide
+Type=Application
+Exec=firefox --new-window https://docs.google.com/document/d/1zlysEdkh73FTNy6Zgm1HuXHnPcVr53v0cWcgVMoAXcs
+Terminal=false
+Categories=GNOME;Red-Hat-Internal;
+X-Desktop-File-Install-Version=0.2
+Icon=/usr/share/icons/Bluecurve/96x96/apps/gnome-main-menu.png

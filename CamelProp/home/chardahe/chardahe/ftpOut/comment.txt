@@ -1,0 +1,1079 @@
+https://gss.my.salesforce.com/00OA0000006WbQv  ==>report
+
+https://docs.google.com/spreadsheets/d/123_gPw2oLqtlOmbufKkUFHnIlY8bPsWGuF_xSWvrC3Q/edit#gid=1393020870    ==> sheet
+
+===========================================================================================  
+  
+VM : vncviewer heapdump.gsslab.pnq.redhat.com:1
+
+Mount foobar : sshfs schaudha@foobar.gsslab.pnq.redhat.com:/foobar/ /VirtualMachines/foobar
+
+scp : scp java_pid23005.hprof user1@heapdump.gsslab.pnq.redhat.com:/heapdump/Avinash/01888106
+
+=========================================================================================== 02003379
+
+Greetings,
+
+Thank you for contacting Red Hat Technical Support.
+
+My name is Avinash and I will be assisting you on this case.
+
+Currently going through the case details, will provide you an update shortly.
+
+Appreciate your patience.
+
+
+Regards,
+Avinash Dongre,
+
+
+===========================================================================================
+
+Hello,
+
+Thank you for contacting Red Hat JBoss support.
+
+I am the Engineer who will be working with you on this issue.
+
+Currently I am looking into the issue.
+
+I will get back to you with updates.
+
+Thank you for the patience.
+
+Regards,
+Avinash Dongre,
+
+
+=============================================================================================
+Hello,
+
+This is a reminder that we are waiting for an update from your side. I would be glad to help you if you need any further assistance on this case.
+
+Awaiting for your response.
+
+
+Regards,
+Avinash Dongre
+
+==========================================================================
+Hello,
+
+Do you have any updates on this case?
+
+
+Regards,
+Avinash
+
+======================================
+
+Hi,
+
+
+I just wanted to check in regarding the status of this case.  Is there anything else we can do to assist you with this issue, or can this case be closed?
+
+
+Regards,
+Avinash
+===================================================================
+
+Hello,
+
+Hope you are doing great. 
+
+Did you get any chance to go through previous comment ? Please feel free to revert in case of any further assistance on this.
+
+
+Regards,
+Avinash 
+
+====================================================================
+
+Hi,
+
+Its been a while since we have heard back from you on this case . Please advise if you need any further assistance . Or if we can close this case.
+
+Thanks
+
+
+================================================================
+
+Hello,
+
+We have not heard from you in past days. Was the information helpful to you? Please let us know for further assistance on this case.
+
+
+Regards,
+Avinash 
+
+==================================================================
+
+Hello,
+
+Hope you are doing great.
+
+I would like to know if you got any opportunity to review the updates.
+
+We can proceed towards closure if you consider your query as resolved.
+
+Please do let us know with updates.
+
+Regards,
+Avinash Dongre,
+
+
+=====================================================================================================
+Hello,
+
+Thank you for your update.
+
+For now I am setting the status of this case as "Waiting on Customer" so that we will receive a notification whenever you update us with your results. I hope this is fine with you.
+
+Kind Regards,
+Avinash 
+
+=======================================================
+Hello,
+
+Thanks for updating us .
+
+We will stand by for further updates from your end .
+
+
+Kind Regards,
+Avinash 
+===============================================================================================
+Hi,
+
+Thank you for contacting Red Hat.
+
+We are going through the case description and the issues which you have highlighted and would get back to you soon with our feedback. 
+
+Thank you for your patience on this case.
+
+Regards,
+Avinash Dongre
+
+====================================================================================
+
+Hello,
+
+Hope you are doing Good!
+
+Its been long that we have heard from you. It would be great if you update us with current status. If your query is answered, will it be fine if I go ahead and close this case ? 
+
+However if you need any information regarding this current case or have any updates for us then please let us know. For any new Query we would request you to open a separate ticket and we would be more then happy to assist you.
+
+Regards,
+Avinash Dongre
+
+
+===============================================================================================================
+
+Hi,
+
+Please let me know if the last update on the case answered your query .
+
+
+
+Regards,
+Avinash Dongre.
+Jboss Middleware Team.
+Red Hat.
+===================================================
+
+You currently have 1 contact in your account, Jayaseelan B. That person need to follow this procedure in order to add other contacts to the account:
+
+   https://access.redhat.com/documentation/en-US/Red_Hat_Customer_Portal/1/html/Managing_RHN_User_Access/
+
+******************************************Closing commets ++++++++++++++++++++++++++++++++++++=
+
+Closing commets *******************************************8
+
+===========================
+
+Hello,
+
+Hope you are doing great. 
+
+As it has been quite some time we did not hear back from your side, hence we would be going ahead and closing this case.
+
+If you have any query on this case then you can reopen the same case, For any new Query we would request you to open a separate ticket and we would be more then happy to assist you.
+
+Thank you for contacting Red Hat.
+
+
+Regards,
+Avinash 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hi,
+
+Thank you for continuing to use Red Hat Support and we hope that you had a great experience working towards issue resolution.  
+
+As this case is now closing, you may receive a survey.  Please take this opportunity to let us know what we did well and where we can improve. Your comments help us continually refine the support experience to provide you with better service and quicker resolution.  
+
+Thank you for taking the time.
+ 
+If you still need any assistance with this issue please update the case and this should reopen the case.
+
+Thanks
+Avinash
+========================================================
+
+Hi, 
+
+Hope you are doing great. 
+
+Thank you for the update. 
+
+After this ticket has been closed, you may receive an email request to fill out a survey on your experience with this service request. 
+We encourage you to fill this survey out, as your feedback is very important to Red Hat and it helps us to determine what we are doing correctly as well as highlight what we can do to assist you better. 
+
+As confirmed I am going ahead and closing the case.
+
+
+Regards,
+Avinash Dongre,
+
+
+
+=====================================================================
+
+You may be receiving a survey following the closure of this case; we'd appreciate any feedback you can provide here regarding your support experience with this case and any ways it could be improved.  Thanks again for contacting JBoss Support.  Please don't hesitate to contact us again if we can assist you with any further questions or issues.
+
+
+Regards,
+
+=====================================================================
+
+Hi,
+Due to inactivity on this case, the 24x7 flag is no longer set on this case. This means we will be assisting you primarily during the support  hours of your region  when you are available. This can be  readjusted at any time, depending on your availability. Please feel free to give us a call on the numbers listed on our contact page, or update the case if you have any questions or concerns.
+
+"Contacting Technical Support"
+
+https://access.redhat.com/support/contact/technicalSupport.html
+
+
+Thanks
+Avinash
+
+
+================****** Sevirity Reduce ******====================================
+
+I would suggest you to reduce the severity of this ticket for now, since this issue does not satisfy our criteria for severity-1 or 2 issue.
+
+Severity 1 & 2 issues are reserved for the situations wherein there is a severe impact on the production sever and also there is no immediate workaround for the issue. 
+
+You may like to check our severity definitions defined as per our agreement with you [1] .
+
+[1] : https://access.redhat.com/support/policy/GSS_severity.html
+
+=======================================================================
+
+Also, I gather this is an installation/configuration question , which is normally worked at a sev3/sev4 .
+
+Please note the definition of severity levels at: Red Hat Support Severity Level Definitions - Red Hat Customer Portal
+
+On this page, Severity 1 issues are described as follows:
+"A  problem that severely impacts your use of the software for production  purposes[1] (such as loss of production data or in which your production  systems are not functioning). The situation halts your business  operations and no procedural workaround exists."
+
+“Production  purposes” means using the software in a production environment,  generally using live data and/or applications for a purpose other than  development and/or prototyping software or hardware.
+
+Due  to the exceptional nature of such issues, it triggers a set of specific  internal actions that consume a lot of critical engineering and  management resources within our support organization. This is why we  would like to make sure, with your input, that this particular case is  actually at a Severity 1 level.
+
+Regardless of its  actual severity level, please be assured that we will continue working  on your case with our best resources. Thank you for your cooperation.
+
+I am now reducing the severity of this case to a sev 3.
+
+======================================================================
+
+
+I have seen this case is open under account name "XXXX" account number "XXXX" and unfortunately this account does not have any valid JBoss support subscription which is require to continue the support for JBoss EAP. Hence please let us know if you have any other account which has valid JBoss subscription. 
+
+If not then please provide the contact details of the person from your side so that our sales team can get back to you. Additionally you can rich to our Sales team by referring the contact details from below link [3] based on your region.  
+ 
+[3] - https://access.redhat.com/support/contact/Sales.html
+===============================================================================
+
+Hi,
+
+Since we haven't heard back from you for over a month, I'll close the case, optimistically assuming the suggestions solved the problem. If you still needed assistance with this, feel free to leave another comment which will automatically re-open the support case.
+
+
+Regards,
+
+=========================================================================
+
+Hello,
+
+  Could you please update us with the current status of the issue?
+  Let us know if you have further queries and whether you are waiting on any thing from our side. 
+
+
+Regards,
+Avinash Dongre
+
+==============================================================
+
+Greetings,
+
+Welcome to Red Hat Global Support Services !!
+
+I am Avinash from JVM specialty group and I am the present case owner for this case.
+
+I am going through all the provided logs and data and it might take another couple of hours to come up with my findings and further Action plan. In meantime if you have anything additional to share with regards to issue please feel free.
+
+Regards,
+Avinash Dongre,
+Red Hat Global Support
+
+=====================================================================
+
+Hello,
+
+Hope you are doing fine.
+
+Since there has been no update on this ticket, I am moving it to closure.
+
+Please feel free to get back to us in case you require any assistance.
+
+It was a pleasure working with you, have a great day ahead!!
+
+Best Regards,
+Avinash Dongre
+  
+==============================================*********** New Case *****************=====================================================================================================
+
+"For the best support experience, it is typically most effective to limit cases to a single issue. This allows cases to be worked in parallel by the most appropriate expert. Issue xyz seems like a new/different issue. Can you please open a new case for xyz?"
+
+Or we could open the new case for them.
+
+==================================================================================================================
+
+
+However it is only one thread dump, So we could not answer you question right now.
+
+To further analysis please provide me 5-6 thread dumps in the interval of 10-15 seconds.
+
+To take thread dump you can refer the following:
+
+ - For windows you can refer link[1].
+
+ - For Linux you can refer link[2].      
+
+
+ [1] https://access.redhat.com/site/solutions/19170
+ [2] https://access.redhat.com/site/solutions/18178
+
+
+==================================================================
+
+Hello,
+
+For the issue feature request has been already reported (PRODMGT-498) which is internal. 
+
+The feature request might be includeed in the future releases of JBoss, which will take some time.
+
+So can we go ahead and close the case as we do not have the timeline when this will be merged.
+
+You can reopen the case to check the status.
+
+Please do let me know if you have any query.
+
+
+Regards,
+Avinash Dongre,
+
+
+===========================================================================================================================
+
+Hi, 
+
+Hope you are doing great. 
+
+Thank you for the update. 
+
+It is good to hear that you are moving you application to EAP.
+
+Jboss EAP is highly integrated, tested, and certified enterprise platform which includes patches, updates, SLA-based support and multiyear maintenance policies. 
+
+Again the issue related to JVM is sometime related to the bugs in the upstream, So it may happen that when you will use EAP the issue may not occur.
+02003379
+However if you will face some issue with EAP also then we will be happy to give you support at our best.
+
+
+
+Regards,
+Avinash Dongre,
+
+
+============================================================
+
+Hello,
+
+Hope you are doing great.
+
+For you issue the feature request is opened and it is forworded to "Product Management Team" for aproval, The Product Management may aprove the feature request.
+
+If they aprove then it will be handled by Engineering team and The feature request might be includeed in the future releases of JBoss, which will take some time.
+
+So please let us know, will it be fine if I go ahead and close this case as we do not have the timeline when this will be merged.
+
+You can reopen the case to check the status.
+
+
+
+Regards,
+Avinash Dongre
+
+
+
+================================================================
+
+********************************** System.gc() *******************************************************
+
+The gc logs provided by you shows that your application is calling garbage collector explicitly. 
+
+Adding "-XX:+DisableExplicitGC" JVM_OPTS in run.conf file will disable calls to System.gc(). Note that the JVM still performs garbage collection when necessary.
+
+You ideally should not have any control over GC in java. It is totally decided by VM. Since a System.gc() call simply suggests that the VM do a garbage collection and it also does a FULL garbage collection, then it can actually cause MORE CPU cycles to be consumed than necessary.
+
+My recommendation is please add this option "-XX:+DisableExplicitGC" in your run.conf file under JAVA_OPTS options.
+
+================================================================
+
+
+******************Heap dump *******************
+
+-A heap dump, which you can capture as explained in https://access.redhat.com/knowledge/solutions/21109 so we can see just what is being retained in your heap?  The best method would be to use the -XX:+HeapDumpOnOutOfMemoryError flag to create the heap dump automatically when the OOME occurs.  Please compress the file and include the case number in the file name.  If it is over 250 mb in size when compressed, please upload it to our ftp dropbox as explained in https://access.redhat.com/knowledge/solutions/2112.
+
+
+===========================================================
+
+Freeoutput
+
+
+1) The philosophy in Linux is that an unused resource is a wasted resource. The kernel therefore will use as much RAM as it can to cache information from your local and remote filesystems and disks. This builds up over time as reads and writes are done on the system trying to keep the data stored in RAM as relevant as possible to the processes that have been running on your system. 
+
+2) Swap is not used because, accessing external storage or local storage disc for any purpose is always slow as compared to accessing RAM. Saving the files on RAM increases the processing speed by reducing the time required to access a file, as compared to accessing a file from Local disk (Swap). This indirectly increases the overall performance. 
+
+Let's have look at 'free' output from your system. According to the free command output:
+
+[root@L28soaapp1 ~]#  free -m
+             total       used       free     shared    buffers     cached
+Mem:         48254      48047        206          0        629      23188
+-/+ buffers/cache:      24229      24024  <<<----------------------- [ Actual free memory ]
+Swap:        32767         57      32710
+
+
+Here free memory is calculated as:-
+# free memory = total memory - memory used by applications - buffers - cached 
+              =  206  +  629  +  23188
+              =  24023
+
+3) The above output of 'free -m' command indicates that the system is using 48047 MB (~46GB) from 48254 MB out of which 23188 MB is used by cache. 
+The actual free memory available for applications on this system is 24023 MB (~23GB).
+
+4) As you can see most of the data is in 'cached'. It shows the amount of RAM which is currently used by the page cache. The page cache is a copy in memory of data which was read from or written to disk. In simple terms we can say the page cache is a copy of disk data available in memory. Please refer the below article for more information.
+
+~~~~~~
+What is cache in "free -m" output and why is memory utilization high for cache?
+Link: https://access.redhat.com/solutions/67610
+~~~~~~
+
+5) Cache memory can be "considered" as free memory, So if a new process is requesting for free pages the kernel will check and accordingly reclaim free pages by syncing (pushing pages back to disk). Now cache can also be cleared in the system to free 'cached' memory. However it is not recommended as it is a temporary solution and will increase I/O load on the server. 
+
+For more information please refer:
+~~~
+My Red Hat Enterprise Linux system shows that I am using a lot of memory, even though nothing is running. Why?
+https://access.redhat.com/site/solutions/1138
+
+What is indicated by each value in /proc/meminfo?
+https://access.redhat.com/solutions/1823
+~~~
+
+=======================================================================
+
+******************************* Unexpected JBoss Down *********************************************
+
+Greetings,
+
+Thank you for contacting Red Hat Technical Support.
+
+My name is Avinash and I will be assisting you on this case.
+
+To understand the issue better could you please share the below information : 
+
+ - What exactly you mean by JBoss down ? Did you noticed any unresponsiveness but the PID is runnning? Or did the JBoss PID down?
+
+ - Is this first time you are facing this issue or this happened before?
+
+ - Is there any recent changes ? Is this reproducible ?
+
+ - Did you observed any OutOfMemory issue? Or JBoss crash issue?
+
+ - Is there any "hs_err_PID" file generated ?
+
+ - Please share the server.log and boot.log files?
+
+ - Have enabled the GC logs ? If yes then please share it or refer article [1] to enable GC logs.
+
+Awaiting for your response.
+
+
+[1] - https://access.redhat.com/solutions/18656
+
+
+Regards,
+Avinash Dongre,
+
+
+=======================================================================
+
+*********** OPEN FILES ***************
+
+Hello,
+
+Thank you for contacting Red Hat Support.
+
+My name is Avinash and I am working with you on this issue .
+
+In Java, every socket is a file. Once many sockets start being opened, it can cause this issue if the file limit imposed by the OS is exceeded.
+
+To understand your issue better could you please share below data taken at the time of the issue :
+
+1) Share the lsof output . Please run the below command to get the lsof output and share the lsof.out file with us : 
+-------------------------
+lsof -p <pid> > lsof.out
+-------------------------
+
+2) Share "netstat" ouput to see the state of the sockets : 
+-------------------------
+netstat -vatnp > netstat.out
+-------------------------
+
+3) Also, share the output of command : ulimit -a 
+
+4) Share output : java -version 
+
+5) Complete Server.log file.
+
+
+**Note : Run the commands with the user running JBoss .
+========
+
+ - Also, To check the global filesystem limit, use the following sysctl command:
+--------------------------
+/sbin/sysctl fs.file-max
+--------------------------
+
+
+Regards,
+Avinash Dongre
+
+
+===========***********java.lang.OutOfMemoryError: Java heap space*********===================================================
+
+
+Thanks for contacting JBoss Support.  I see you are receiving 'java.lang.OutOfMemoryError: Java heap space' errors which indicates your heap space is being exhausted.  This could just be a need for a larger heap or a legitimate memory leak.  In this OOME condition, the JVM will throw constant garbage collection, producing high CPU and virtually constant long pause times, yielding any applications the JVM is running unresponsive.
+
+For us to troubleshoot this further, can you reproduce this and capture a heap dump as explained in https://access.redhat.com/site/solutions/21109 so we can see just what is being retained in your heap?  The best method would be to use the -XX:+HeapDumpOnOutOfMemoryError flag to create the heap dump automatically when the OOME occurs.  Please compress the file and include the case number in the file name.  If it is over 250 mb in size when compressed, please upload it to our ftp dropbox as explained in https://access.redhat.com/site/solutions/2112. 
+
+Also, can you enable garbage collection logging as explained in https://access.redhat.com/site/solutions/18656 and provide us the resulting gc.log from this issue along with your server.log?  
+
+Is this a newly deployed application, or has it been in production for some time and only recently this issue has appeared?  Have any changes been rolled out recently?
+
+
+
+===========***********PermGen Issue*********===================================================
+
+Hello,
+
+Thank you for contacting Red Hat JBoss support.
+
+I am the Engineer who will be working with you on this issue.
+
+ - Generally, the PermGen runs out of space due to one of the following reasons :
+
+1. There might be a lot of dynamic classloading and and less space allocated for PermGen. 
+
+2. If you are using hot deployments without restarting JBoss, you might run into this problem.
+
+3. Applications with many libraries
+
+4. Leaked generated classes
+
+Please refer Knowledge base article [1] which will help you to deal with this issue.
+
+As mentioned in article [1] to understand the issue better we need below information from your side taken at the time of the issue. 
+
+ - Complete "server.log" file.
+
+ - Output of "permstat" to determine what classes are consuming permgen space. You can use below command :
+
+-----------------
+jmap -permstat JBOSS_PID  >& permstat.out
+-----------------
+
+ - "GC.logs", please refer article [2] in which you will find the steps to enable GC logs.
+
+ - "HeapDump" taken at the time of the issue, refer article [3] for "How do I create a Java heap dump?".
+
+Awaiting for your response.
+
+
+[1] - https://access.redhat.com/site/solutions/17624
+
+[2] - https://access.redhat.com/site/solutions/18656
+
+[3] - https://access.redhat.com/solutions/21109
+
+
+Regards,
+Avinash
+
+
+===========***********Metaspace Issue*********===================================================
+
+
+Greetings,
+
+Thank you for contacting Red Hat Technical Support.
+
+My name is Avinash and I will be assisting you on this case.
+
+From your logs I can see that you facing "java.lang.OutOfMemoryError: Metaspace".
+
+The Perm Gen space has been removed in JDK8 and replaced by the Metaspace. Class metadata previously stored in the Perm Gen space is now allocated in the Metaspace in native memory. By default the class metadata allocation is only limited by 32/64 bit addressable memory. The new flag -XX:MaxMetaspaceSize argument can be used to limit the amount of native memory used.
+
+It seems that the Metaspace is being exhausted. Either it is undersized, or there is a leak.
+
+For now I would suggest you to increase the size of the Metaspace. After increasing the size if you face the same issue then please share below data with us :
+
+ - GC logging from the time of the issue, which you can enable as explained in https://access.redhat.com/solutions/18656.
+
+ - corresponding server log
+
+ - output of the following command around the time of the issue:
+
+    jmap -clstats <JAVA_PID> > clstats.out
+
+ - A heap dump from the OOME, which you can capture as explained in https://access.redhat.com/solutions/21109.  The best method would be to use the -XX:+HeapDumpOnOutOfMemoryError flag to create the heap dump automatically when the OOME occurs.  Please compress the dump and include the case number in the file name.  If it is over 250 mb in size when compressed, please upload it to our ftp dropbox as explained in https://access.redhat.com/solutions/2112. 
+
+** To increase the size of the Metaspace use argument "-XX:MaxMetaspaceSize=2g". 
+
+** Also refer article https://access.redhat.com/solutions/2038983 in which you will find the detailed explanation of this issue.
+
+
+Regards,
+Avinash Dongre,
+
+
+
+=============================================================================
+
+Thank you for contacting Red Hat JBoss support.
+
+I am the Engineer who will be working with you on this issue.
+
+To understand your issue better, I need some information from you.
+
+ - Please elaborate your architecture.
+
+ - Is this a first time you find the issue? or Is it happened before.
+
+ - Are you restarting the nodes.
+
+ -  "boot.log" 
+
+ - Thread Dump and "top" command output together. This data can be collected using the script "high_cpu_linux_jstack.sh" which is attached as part of the KCS [1] article. 
+         **NOTE**: this script "high_cpu_linux_jstack.sh" should be executed to collect the debug data ONLY when you see a slow responsiveness from JBoss side. 
+
+The Script will capture a series of 6 thread dumps along with CPU by light weight thread, spaced 20 seconds apart (the time interval can be adjusted if necessary). The CPU information will be captured in a file called "high-cpu.out" in the directory where the script is run, and thread dumps will be sent to "high-cpu-tdump.out".  Once these files are collected at the time of JBoss Slow responsiveness, Please attach them to the ticket.
+
+ - We also need the GC Log (Garbage Collection) log for our investigation, as many times the Garbage collection or the Heap tuning is required in order to make the JVM/JBoss process tuned well and to avoid slowness. You can collect the Garbage collection log of your JBoss process as mentioned in article [2].
+
+
+[1] - https://access.redhat.com/site/solutions/46596
+
+[2] - https://access.redhat.com/site/solutions/18656
+
+
+JBoss access logs from the time of the issue.  Enable it like so by adding an access-log with a pattern like below to the virtual server(s) in your web subsystem:
+
+        <subsystem xmlns="urn:jboss:domain:web:1.1" default-virtual-server="default-host" native="false">
+            <connector name="http" protocol="HTTP/1.1" scheme="http" socket-binding="http"/>
+            <virtual-server name="default-host" enable-welcome-root="true">
+               <access-log pattern="%T %h %l %u %A %v %t %r %s %b %S %I"/>
+
+
+***********************High CPU ****************************************
+
+To understand your issue better, I need some information from you.
+
+ -  "boot.log" and "server.log" file.
+
+ - Thread Dump and "top" command output together. This data can be collected using the script "high_cpu_linux_jstack.sh" which is attached as part of the KCS [1] article. 
+         **NOTE**: this script "high_cpu_linux_jstack.sh" should be executed to collect the debug data ONLY when you see a High CPU from JBoss side. 
+
+The Script will capture a series of 6 thread dumps along with CPU by light weight thread, spaced 20 seconds apart (the time interval can be adjusted if necessary). The CPU information will be captured in a file called "high-cpu.out" in the directory where the script is run, and thread dumps will be sent to "high-cpu-tdump.out".  Once these files are collected at the time of JBoss High CPU, Please attach them to the ticket.
+
+ - We also need the GC Log (Garbage Collection) log for our investigation, as many times the Garbage collection or the Heap tuning is required in order to make the JVM/JBoss process tuned well and to avoid High CPU. You can collect the Garbage collection log of your JBoss process as mentioned in article [2].
+
+You can again refer knowledge base article [3] in which you will find the root cause and the diagnostic steps for this issue.
+
+Awaiting for your response.
+
+
+[1] - https://access.redhat.com/site/solutions/46596
+
+[2] - https://access.redhat.com/site/solutions/18656
+ 
+[3] - https://access.redhat.com/solutions/24830
+
+
+================================================================
+Native thread :
+ 
+The error message that you referred to in your description (java.lang.OutOfMemoryError: unable to create new native thread) is a problem in which the JVM is unable to create threads at the OS layer to do its work. This issue can be attributed to any one of the following:
+ 
+  1) Native address space exhaustion
+  2) Open file limit descriptor being reached
+  3) Maximum number of processes per user being exceeded (From your provided output it looks like you're using the default of 1024 which is typically undersized)
+ 
+To address the problem consider the following options:
+ 
+* Explicitly setting the thread stack size to -Xss128k as the default [1] is often surplus to requirements. Should you get a StackOverflowException, increase the value by 64k increments until the error goes away.
+ 
+* Reduce the JVM process size. If you have garbage collection [2] enabled you should be able to see the heap usage profile over time, and determine what the memory allocation for the JVM heap (Xmx/Xms) should be.
+ 
+* If 2) or 3) above is a contributory factor, please see article [3] for how to update limits.conf to remedy this.
+ 
+What JDK are you using? What version? Are you running on a 64 or 32 bit OS?
+ 
+ 
+Thanks,
+Avinash
+ 
+ 
+[1] https://access.redhat.com/knowledge/solutions/18362
+[2] https://access.redhat.com/knowledge/solutions/18656
+[3] https://access.redhat.com/knowledge/solutions/18064"
+
+
+============================================================================
+
+There are many possible causes of this error, as detailed in the KCS.
+
+You have to look through diagnostic data for each cause to determine what the problem is.
+(and only then tell the customer to change something).
+
+To start, look for whether Java is 32-bit or 64-bit.
+- From  839.zip/server.log:
+    sun.arch.data.model = 64
+
+Since the JVM is 64-bit, you cannot run out of address space.
+So that eliminates any causes related to memory, including thread stack size, heap size, permgen size, etc.
+
+After eliminating those, the two main causes left are:
+- process limit
+- open file limit
+
+We need data to check for each of these during the issue.
+- process limit (ulimit -u)
+    ps -eLf
+- file limit (ulimit -n)
+    lsof
+
+
+=============================================================================
+
+Could you please check the exact open file number and process number, as described in the article:
+-----------------------------------------
+- Linux/Solaris: To see if the max user processes limit is being exceeded, compare ulimit -u  output (run as the user running JBoss) to the number of threads in the thread dump to see if the max user processes limit is being exceeded.
+  - - ps -eLf output can easily show all running threads and processes on RHEL. Count how many threads are under the JBoss user. For example: cat ps.txt | grep "^jbossas" | wc -l
+- Linux/Solaris: Compare ulimit -n and netstat output to see if the number of sockets is exceeding the open file limit.
+-----------------------------------------
+
+=============================================================================
+
+Hello,
+
+In addition to Avinash's initial update, another common cause is a nproc ulimit being set too low. The nproc ulimit is an operating system limit that is set per user and sets a limit on the number of processes/threads that can be created.
+
+Can you please share the output from this command when run as your jboss user?
+
+  # ulimit -a
+
+Also, can you upload these files if they exist:
+
+  /etc/security/limits.conf
+  /etc/security/limits.d/90-nproc.conf
+
+Do you know if a ulimit is being set in any of your application startup scripts? Finally, a thread dump from the time of the issue would be essential in identifying if the nproc ulimit is being reached.
+
+
+
+Thanks,
+
+=============================================================================
+
+Native thread aaron :
+
+Hi,
+
+
+Thanks for contacting JBoss Support.  Essentially, this error occurs because the JVM is unable to create a new thread.  There's a couple of different typical reasons for this:
+
+-An exhaustion of native memory available to the process.  Each thread has to be allocated a thread stack.  If there is no room for the thread stack, thread creation fails, yielding this error.  If on a 32 bit JVM, the process will be bounded to 3 gb on Linux.
+-OS process limit is hit.  Each java thread contributes to this count and thus hitting the limit can cause this error and a failure to fork off a new thread.
+-OS file limts hit.  In java sockets are treated as an open file.  Threads are often tied to these sockets and so if file limits are reached and sockets can't be created, threads can fail.
+
+What was the process size of the JVM when this was experienced?  Did you notice an abundance of threads alive at this time?  If this is occurring due to memory constraints, you need to free up or provide more native memory through the following methods:
+
+1) Lower heap size
+2) Lower PermGen size
+3) Lower thread stack size (for example -Xss128k)
+4) Move to 64-bit where the process isn't limited to 3 GB of addressable memory space (if you haven't already) and/or increasing system RAM
+
+
+Here is additional info I'd recommend gathering to review this further:
+
+-Add the following JVM option to capture pmap output when OutOfMemoryError happens to see address space information:
+    -XX:OnOutOfMemoryError="pmap %p > pmap.out"
+-output of "cat /proc/meminfo > meminfo.txt" from the time of the issue
+-boot.log and server.logs from the time of the issue
+-output of ulimit -a from the user running your jboss servers
+-Thread dumps from the time of the issue.  You can capture these as described in https://access.redhat.com/site/solutions/18178.
+
+
+Regards,
+
+
+[1] https://access.redhat.com/solutions/18064
+
+
+--==========================================================
+
+"java.lang.OutOfMemoryError: GC overhead limit exceeded" 
+
+--------------------------------------------------------
+
+Greetings,
+
+Thank you for contacting Red Hat Technical Support.
+
+My name is Avinash and I will be assisting you on this case.
+
+I have gone through the logs and I can see that you are facing "java.lang.OutOfMemoryError: GC overhead limit exceeded" error.
+
+The "java.lang.OutOfMemoryError: GC overhead limit exceeded" error is thrown by the throughput old collector (serial or parallel) if more than 98% of the total time is spent doing garbage collection and less than 2% of the heap is recovered. It is intended to prevent applications from running for an extended period of time while making little or no progress reclaiming objects (e.g. when the heap is too small, there is a memory leak, or the old generation is disproportionately small compared to the new generation).  
+
+- In order to troubleshoot the issue , please enable garbage collection logging as given in link [1] . Use `-XX:+PrintGCDateStamps` for "JAVA_OPTS" option which will print the date stamps . 
+
+- Please capture the heap dump as given in link [2] . Add "-XX:+HeapDumpOnOutOfMemoryError" JVM_OPTION as given in our knowledge article [2] . This option automatically generates heap dump on its first "java.lang.OutOfMemoryError" errors . 
+
+- You facing "java.lang.OutOfMemoryError: GC overhead limit exceeded" error , this type of out of memory error  does not result in a heap dump when the -XX:+HeapDumpOnOutOfMemoryError option is used. In those cases it will be necessary to get a heap dump manually. Please make sure to capture the heap dump when you see heap usage spike . Use the below command to capture the heap dump manually : 
+
+----------
+jmap -dump:live,format=b,file=/<some_path>/heap.hprof <pid>
+----------
+
+If you again face the out of memory error , share the heap dump , gc log and server.log at the time of issue .
+
+
+[1] https://access.redhat.com/solutions/18656
+
+[2] https://access.redhat.com/node/21109
+
+
+Regards,
+Avinash Dongre,
+
+
+
+--------------------------------------------------------
+
+
+========================================================================
+
+
+
+
+=============================================
+
+Hello Ashnee,
+
+Thanks for the update. I m working with Avinash on this case, I m one of the Engineer's working in IST time zone to help you. 
+
+I m checking the data currently. It will take some time for me to check data. I will be able to update you in next two hours, please let me know if it is fine with you or update us in case of any concerns.
+
+Regards,
+Simer
+===================================================================
+
+ 
+ ln -s /usr/share/selinux/devel/Makefile
+
+
+
+================================================================================
+
+Hello,
+
+Thank you for the update.
+
+I think to understand your issue, it is better to have remote session.
+
+So please do let me know, is it okay for you if we will have a remote session with you.
+
+If yes then please update the case with the convenient time and contact details. So, that we can contact you at that time. 
+
+I am working in EMEA time-zone 02.00 PM to 11.00 PM (IST).
+
+Refer [1] for more information related to remote session.
+
+
+[1] - https://access.redhat.com/site/articles/255443
+
+
+Regards,
+Avinash
+
+====================================================================================
+
+OQL : Select s.queryString.toString() from ===== s
+
+OQL for class loader : SELECT c FROM INSTANCEOF class-loader-name c
+
+select s.value.toString() from java.lang.String s
+
+===============================================
+
+
+Hello,
+
+Hope you are doing great.
+
+Thank you for contacting redhat.
+
+I am the Engineer who will be working with you on this issue.
+
+I see that you are using JBoss EAP 4.2.0.GA_CP03 (Please do correct me if I am wrong, the correct version can be determined from $JBOSS_HOME/server/log/boot.log directory).
+
+The JBoss EAP 4.2.x has reached its End Of Life as specified in link [1].
+
+Hence you will require an Extended Life support for the same.
+
+I checked in your account details whether you have an extended life support, however unfortunately I could not see any extended life support subscription accociated to you account.
+
+I would like to know if you have any other account number that has an extended life support subscription, if yes please do open a new case with that account number.
+
+You can also share the account number having extended life support with me and I can check and open a new case for you.
+
+We deeply regret for the inconvenience caused.
+
+You can reach out to your sales if you have queries regarding the subscription.
+
+Awaiting your response!
+
+Regards,
+Avinash Dongre,
+
+
+
+REFERENCE LINK/S:-
+=====================================================
+[1] : https://access.redhat.com/support/policy/updates/jboss_notes/
+=====================================================
+
+Hello Abhishek,
+
+Thank you for the update.
+
+It is good to know that the patch is working fine at your end.
+
+As per the process that we need to follow and in order to avoid confusion, I have to create a new case for you so that this new issue can be managed separately because this issue is not related to the existing one.
+
+
+
+Regards,
+Avinash
+
+
+Hello Harikrishna,
+
+My name is Praveen and I am an Escalation Manager looking into your request for management escalation on this case.
+
+I tried calling you on 01-234-5678 but does not look like a valid tel no:. If you would like, please share a good tel no: to reach you.
+
+Kindly note that this case has a severity 3 on it along with a premium subscription and in between, I would like to let you know that every case is treated with a priority which is defined by many factors that includes the severity, subscription etc. Depending on the all of this, the case is given  a response SLA that is something that Red Hat engineer consider while prioritizing the case.
+
+I see that there is some time left on this agreed SLA at the moment and I thought it is best that you are also aware so that the response expectation can also be in sync with few process guidelines that we follow.
+
+Having said that, let me go back and have a conversation with the associated team to see how the engineers are placed at the moment to own this case and work with you.
+
+Please standby and look forward to hearing from us.
+
+Thanks,
+Praveen
+Escalation Manager
+
+
+  
+*************** IMP commnds **************
+
+  $ grep 'Full' log1.txt | wc -l
+
+$ grep 'Full' gc.log
+
+grep "waiting to lock" store4* |sort | uniq -c | sort -rn | more
+
+************** END *******************
+
+********************OQL for JVM options from heap ***************************************
+
+select * from sun.management.VMManagementImpl
+
+****************** Command for default JVM option *************************************
+
+java -XX:+PrintFlagsFinal -version | grep -P "Use(Parallel|ParallelOld|ConcMarkSweep|ParNew|Serial|G1)GC" | grep "true"
+
+****************************************************************************************
+java -XX:+PrintFlagsFinal -version | grep -P "Use(Parallel|ParallelOld|ConcMarkSweep|ParNew|Serial|G1)GC" | grep "true"
+++++++++++++++++++++++++++++++ Find command for Jar ++++++++++++++++++++++++++++++++++++
+
+grep 'BlazeRuleProcessorRemote' `find . \-name '*.jar'`
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ command to track slows requests : awk '{print $1}' access_log_2016-04-28 | sort -nr | less
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+egrep -ir "10.10.211.241:8080-24" access_log_2016-04-28 | grep 28/Apr/2016:17:32:1
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ SCP command for VM :
+
+------------------- 
+
+scp 01568793-heap-DFN-2016-04-06.hprof user1@heapdump.gsslab.pnq.redhat.com:/heapdump/01614207/
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+------------------- 
+$ ps -ef | grep jboss
+
+ - Will give JBoss-PID.
+
+$ ps -o stime JBoss-PID
+
+ - Start time
+
+$ ps -eo pid,cmd,etime | grep JBoss-PID
+
+ - For how long the server is up and running.
+-------------------

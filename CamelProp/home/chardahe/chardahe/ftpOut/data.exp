@@ -1,0 +1,66 @@
+
+<activemq-journal>
+   <bindings>
+      <address-binding routing-types="ANYCAST" name="DLQ" id="2"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN12" id="2788"/>
+      <address-binding routing-types="MULTICAST" name="ActiveMQ.Advisory.TempQueue" id="2533"/>
+      <address-binding routing-types="ANYCAST" name="ExpiryQueue" id="6"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN" id="10"/>
+      <address-binding routing-types="MULTICAST" name="ActiveMQ.Advisory.TempTopic" id="2540"/>
+      <address-binding routing-types="ANYCAST" name="A.TEST.IN" id="14"/>
+      <address-binding routing-types="MULTICAST" name="VirtualTopic.Orders" id="18"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN9" id="1139"/>
+      <address-binding routing-types="MULTICAST" name="activemq.notifications" id="20"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN1" id="4406"/>
+      <address-binding routing-types="MULTICAST" name="$.artemis.internal.sf.test-cluster.6e08e145-4487-11e9-b586-60f6772e6fc6" id="24"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN3" id="4441"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN10" id="2749"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN5" id="4446"/>
+      <address-binding routing-types="ANYCAST" name="TEST.IN2" id="4383"/>
+      <queue-binding address="A.TEST.IN" filter-string="" name="A.TEST.IN" id="16" routing-type="ANYCAST"/>
+      <queue-binding address="DLQ" filter-string="" name="DLQ" id="4" routing-type="ANYCAST"/>
+      <queue-binding address="$.artemis.internal.sf.test-cluster.6e08e145-4487-11e9-b586-60f6772e6fc6" filter-string="" name="$.artemis.internal.sf.test-cluster.6e08e145-4487-11e9-b586-60f6772e6fc6" id="22" routing-type="MULTICAST"/>
+      <queue-binding address="ExpiryQueue" filter-string="" name="ExpiryQueue" id="8" routing-type="ANYCAST"/>
+      <queue-binding address="TEST.IN" filter-string="" name="TEST.IN" id="12" routing-type="ANYCAST"/>
+   </bindings>
+   <messages>
+      <message id="25413" priority="4" expiration="0" timestamp="1555482674791" type="text">
+         <properties>
+            <property name="__AMQ_CID" value="ID:adongre.pnq.csb-37152-1555482674462-0:1" type="simple-string"/>
+            <property name="__HDR_BROKER_IN_TIME" value="1555482674794" type="long"/>
+            <property name="_AMQ_ROUTING_TYPE" value="1" type="byte"/>
+            <property name="__HDR_ARRIVAL" value="0" type="long"/>
+            <property name="__HDR_GROUP_SEQUENCE" value="0" type="integer"/>
+            <property name="__HDR_COMMAND_ID" value="5" type="integer"/>
+            <property name="__HDR_PRODUCER_ID" value="AAAAPnsBACpJRDphZG9uZ3JlLnBucS5jc2ItMzcxNTItMTU1NTQ4MjY3NDQ2Mi0xOjEAAAAAAAAAAQAAAAAAAAAB" type="bytes"/>
+            <property name="__HDR_MESSAGE_ID" value="AAAAUW4AAXsBACpJRDphZG9uZ3JlLnBucS5jc2ItMzcxNTItMTU1NTQ4MjY3NDQ2Mi0xOjEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAA==" type="bytes"/>
+            <property name="__HDR_DROPPABLE" value="false" type="boolean"/>
+         </properties>
+         <queues>
+            <queue name="DLQ"/>
+         </queues>
+         <body>
+            <![CDATA[AQAAAAhUAE0ATQBNAA==]]>
+         </body>
+      </message>
+      <message id="25456" priority="4" expiration="0" timestamp="1555483214025" type="bytes">
+         <properties>
+            <property name="__AMQ_CID" value="ID:adongre.pnq.csb-41529-1555483213574-0:1" type="simple-string"/>
+            <property name="__HDR_BROKER_IN_TIME" value="1555483214028" type="long"/>
+            <property name="_AMQ_ROUTING_TYPE" value="1" type="byte"/>
+            <property name="__HDR_ARRIVAL" value="0" type="long"/>
+            <property name="__HDR_GROUP_SEQUENCE" value="0" type="integer"/>
+            <property name="__HDR_COMMAND_ID" value="5" type="integer"/>
+            <property name="__HDR_PRODUCER_ID" value="AAAAPnsBACpJRDphZG9uZ3JlLnBucS5jc2ItNDE1MjktMTU1NTQ4MzIxMzU3NC0xOjEAAAAAAAAAAQAAAAAAAAAB" type="bytes"/>
+            <property name="__HDR_MESSAGE_ID" value="AAAAUW4AAXsBACpJRDphZG9uZ3JlLnBucS5jc2ItNDE1MjktMTU1NTQ4MzIxMzU3NC0xOjEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAA==" type="bytes"/>
+            <property name="__HDR_DROPPABLE" value="false" type="boolean"/>
+         </properties>
+         <queues>
+            <queue name="DLQ"/>
+         </queues>
+         <body>
+            <![CDATA[ICABQ3o=]]>
+         </body>
+      </message>
+   </messages>
+</activemq-journal>

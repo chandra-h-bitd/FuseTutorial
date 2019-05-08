@@ -1,0 +1,17 @@
+for template in amq63-persistent-ssl.json \
+ amq63-basic.json \
+ amq63-ssl.json \
+ amq63-persistent.json;
+ do
+ ./oc create -f \
+ https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.15/amq/${template}
+ ./oc replace -f \
+ https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.15/amq/${template}
+ done
+
+
+./oc create -n openshift -f \
+ https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.15/amq/amq63-image-stream.json
+
+./oc replace -f \
+ https://raw.githubusercontent.com/jboss-openshift/application-templates/ose-v1.4.15/amq/amq63-image-stream.json

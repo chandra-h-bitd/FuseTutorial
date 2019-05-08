@@ -1,0 +1,11 @@
+ /subsystem=datasources/jdbc-driver=mysql:add(driver-module-name=mysql.jar,driver-name=mysql,driver-xa-datasource-class-name=com.mysql.jdbc.jdbc2.optional.MysqlXADataSource)
+/subsystem=datasources/jdbc-driver=mysql:read-resource
+
+/subsystem=datasources/data-source=mysql:add(jndi-name="java:jboss/datasources/mysql",connection-url="jdbc:oracle:thin:@oraclehost:1521:SID",driver-name=mysql,user-name=james,password=hames,valid-connection-checker-class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker",stale-connection-checker-class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLStaleConnectionChecker",exception-sorter-class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter")
+
+/subsystem=datasources/data-source=mysql:read-resource
+/subsystem=datasources/data-source=mysql:read-resource-description
+
+/subsystem=datasources/data-source=mysql:write-attribute(name=password,value=hames)
+/subsystem=datasources/data-source=mysql:enable(persistent=true)
+

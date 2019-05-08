@@ -1,0 +1,71 @@
+========================================
+Throughput less than 90%
+----------------------------------------
+2019-03-20T09:51:14.627+1100: 3.919: [GC remark, 0.0086410 secs] [Times: user=0.02 sys=0.00, real=0.01 secs]
+2019-03-20T09:51:14.636+1100: 3.928: [GC cleanup 46M->43M(2700M), 0.0040685 secs] [Times: user=0.01 sys=0.00, real=0.01 secs]
+...
+2019-03-20T09:51:15.883+1100: 5.176: [GC pause (G1 Evacuation Pause) (young) (initial-mark), 0.0353078 secs][Eden: 126.0M(126.0M)->0.0B(123.0M) Survivors: 9216.0K->12.0M Heap: 161.5M(2700.0M)->38.5M(2700.0M)] [Times: user=0.13 sys=0.01, real=0.03 secs]
+2019-03-20T09:51:16.027+1100: 5.320: [GC remark, 0.0147440 secs] [Times: user=0.05 sys=0.00, real=0.02 secs]
+2019-03-20T09:51:16.055+1100: 5.348: [GC cleanup 67M->67M(2700M), 0.0039513 secs] [Times: user=0.01 sys=0.00, real=0.01 secs]
+...
+2019-03-20T09:51:19.394+1100: 8.686: [GC pause (Metadata GC Threshold) (young) (initial-mark), 0.0335280 secs][Eden: 163.0M(261.0M)->0.0B(296.0M) Survivors: 15.0M->16.0M Heap: 214.0M(2700.0M)->52.0M(2700.0M)] [Times: user=0.13 sys=0.00, real=0.03 secs]
+2019-03-20T09:51:19.540+1100: 8.833: [GC remark, 0.0201948 secs] [Times: user=0.05 sys=0.00, real=0.02 secs]
+2019-03-20T09:51:19.561+1100: 8.854: [GC cleanup 74M->74M(2700M), 0.0047049 secs] [Times: user=0.02 sys=0.00, real=0.00 secs]
+...
+2019-03-20T09:51:20.832+1100: 10.125: [GC pause (G1 Evacuation Pause) (young) (initial-mark), 0.0300455 secs][Eden: 296.0M(296.0M)->0.0B(512.0M) Survivors: 16.0M->28.0M Heap: 348.0M(2700.0M)->64.0M(2700.0M)] [Times: user=0.10 sys=0.01, real=0.03 secs]
+2019-03-20T09:51:20.970+1100: 10.263: [GC remark, 0.0217982 secs] [Times: user=0.06 sys=0.00, real=0.02 secs]
+2019-03-20T09:51:20.992+1100: 10.285: [GC cleanup 116M->116M(2700M), 0.0044072 secs] [Times: user=0.01 sys=0.00, real=0.00 secs]
+...
+2019-03-20T09:51:30.190+1100: 19.483: [GC remark, 0.0248459 secs] [Times: user=0.09 sys=0.00, real=0.02 secs]
+2019-03-20T09:51:30.219+1100: 19.512: [GC cleanup 147M->147M(2700M), 0.0129047 secs] [Times: user=0.03 sys=0.00, real=0.01 secs]
+...
+2019-03-20T09:51:31.675+1100: 20.968: [GC remark, 0.0287850 secs] [Times: user=0.09 sys=0.01, real=0.03 secs]
+2019-03-20T09:51:31.706+1100: 20.999: [GC cleanup 216M->216M(2700M), 0.0056113 secs] [Times: user=0.01 sys=0.00, real=0.01 secs]
+...
+2019-03-20T09:51:47.425+1100: 36.718: [GC pause (G1 Evacuation Pause) (young), 0.1420536 secs][Eden: 957.0M(957.0M)->0.0B(356.0M) Survivors: 80.0M->130.0M Heap: 1132.5M(2700.0M)->263.5M(2700.0M)] [Times: user=0.53 sys=0.01, real=0.14 secs]
+2019-03-20T09:51:47.887+1100: 37.179: [GC pause (G1 Evacuation Pause) (young), 0.1281539 secs][Eden: 73.0M(5120.0K)->0.0B(1616.0M) Survivors: 130.0M->4096.0K Heap: 336.5M(2700.0M)->268.0M(2700.0M)] [Times: user=0.44 sys=0.03, real=0.13 secs]
+...
+2019-03-20T09:51:53.155+1100: 42.448: [GC pause (G1 Evacuation Pause) (young), 0.1318016 secs][Eden: 1616.0M(1616.0M)->0.0B(42.0M) Survivors: 4096.0K->93.0M Heap: 1885.8M(2700.0M)->359.3M(2700.0M)] [Times: user=0.43 sys=0.05, real=0.13 secs]
+2019-03-20T09:51:53.478+1100: 42.770: [GC pause (G1 Evacuation Pause) (young), 0.0903622 secs][Eden: 42.0M(42.0M)->0.0B(1270.0M) Survivors: 93.0M->4096.0K Heap: 401.3M(2700.0M)->352.8M(2700.0M)] [Times: user=0.29 sys=0.06, real=0.09 secs]
+...
+2019-03-20T09:52:19.461+1100: 68.753: [GC pause (G1 Evacuation Pause) (young), 0.1652387 secs][Eden: 730.0M(730.0M)->0.0B(236.0M) Survivors: 77.0M->101.0M Heap: 1299.3M(2700.0M)->660.3M(2700.0M)] [Times: user=0.59 sys=0.05, real=0.16 secs]
+2019-03-20T09:52:19.931+1100: 69.224: [GC pause (G1 Evacuation Pause) (young), 0.1242346 secs][Eden: 64.0M(34.0M)->0.0B(600.0M) Survivors: 101.0M->5120.0K Heap: 724.3M(2700.0M)->666.3M(2700.0M)] [Times: user=0.41 sys=0.08, real=0.12 secs]
+========================================
+JVM:
+----------------------------------------
+Version: OpenJDK 64-Bit Server VM (25.191-b12) for linux-amd64 JRE (1.8.0_191-b12), built on Oct  9 2018 08:21:20 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-36)
+Options: -XX:+HeapDumpOnOutOfMemoryError -XX:InitialHeapSize=2831155200 -XX:+ManagementServer -XX:MaxGCPauseMillis=100 -XX:MaxHeapSize=2831155200 -XX:OnOutOfMemoryError=kill -9 $PPID -XX:+ParallelRefProcEnabled -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC 
+Memory: Memory: 4k page, physical 8009252k(3780604k free), swap 4194300k(3806996k free)
+========================================
+SUMMARY:
+----------------------------------------
+# GC Events: 97
+Event Types: G1_YOUNG_PAUSE, G1_YOUNG_INITIAL_MARK, G1_CONCURRENT, G1_REMARK, G1_CLEANUP
+# Parallel Events: 97
+# Inverted Parallelism: 0
+Max Heap Occupancy: 2450534K
+Max Heap Space: 2764800K
+GC Throughput: ~100%
+GC Max Pause: 0.165 secs
+GC Total Pause: 5.225 secs
+First Datestamp: 2019-03-20T09:51:13.801+1100
+First Timestamp: 3.094 secs
+Last Datestamp: 2019-03-20T10:18:48.946+1100
+Last Timestamp: 1658.239 secs
+========================================
+ANALYSIS:
+----------------------------------------
+warn
+----------------------------------------
+*The -XX:+PrintHeapAtGC option is enabled. The additional data output with this option is not being used for analysis, so it is extra logging overhead. If there is not a good use case for enabling this option, remove it.
+*The Metaspace size should be explicitly set. The Metaspace size is unlimited by default and will auto increase in size up to what the OS will allow, so not setting it can swamp the OS. Explicitly set the Metaspace size. For example: -XX:MetaspaceSize=512M -XX:MaxMetaspaceSize=512M.
+*Many environments (e.g. JBoss versions prior to EAP6) cause the RMI subsystem to be loaded. RMI manages Distributed Garbage Collection (DGC) by calling System.gc() to clean up unreachable remote objects, resulting in unnecessary major (full) garbage collection that can seriously impact performance. The default interval changed from 1 minute to 1 hour in JDK6 update 45. DGC is required to prevent memory leaks when making remote method calls or exporting remote objects like EJBs; however, test explicitly setting the DGC client and server intervals to longer intervals to minimize the impact of explicit garbage collection. For example, 4 hours (values in milliseconds): -Dsun.rmi.dgc.client.gcInterval=14400000 -Dsun.rmi.dgc.server.gcInterval=14400000. Or if not making remote method calls and not exporting remote objects like EJBs (everything runs in the same JVM), disable explicit garbage collection altogether with -XX:+DisableExplicitGC.
+*Consider adding -XX:+ExplicitGCInvokesConcurrent so explicit garbage collection is handled concurrently by the CMS and G1 collectors. Or if not making remote method calls and not exporting remote objects like EJBs (everything runs in the same JVM), disable explicit garbage collection altogether with -XX:+DisableExplicitGC.
+*-XX:+PrintGCApplicationStoppedTime missing. Required to determine overall throughput and identify throughput and pause issues not related to garbage collection, as many JVM operations besides garbage collection require all threads to reach a safepoint to execute.
+----------------------------------------
+info
+----------------------------------------
+*When UseCompressedOops and UseCompressedClassesPointers (JDK 1.8 u40+) are enabled (default) the Metaspace reported in the GC logging is the sum of two native memory spaces: (1) class metadata. (2) compressed class pointers. It is recommended to explicitly set the compressed class pointers space. For example: -XX:CompressedClassSpaceSize=1G.
+*GC log file rotation is not enabled. Consider enabling rotation (-XX:+UseGCLogFileRotation -XX:GCLogFileSize=N -XX:NumberOfGCLogFiles=N) to protect disk space.
+*Some swap space was being used when the GC log file was created (at JVM startup or file rotation). This is not necessarily bad, as it is only a snapshot in time, and it doesn't necessarily mean the Java process is swapping. Swapping is very bad for Java performance, so it may be worth verifying the Java process is not swapping.
+========================================

@@ -1,0 +1,1 @@
+amqps://192.168.122.232:10013?transport.trustAll=true,amqps://192.168.122.28:10013?transport.trustAll=true
