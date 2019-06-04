@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:cm="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="  http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd     http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+    <cm:property-placeholder persistent-id="org.usr.config"/>
+    <camelContext id="log-example-context" xmlns="http://camel.apache.org/schema/blueprint">
+        <route id="log-route">
+            <from id="_from1" uri="timer:foo?repeatCount=1"/>
+            <log id="_log1" message="logging the property value::"/>
+            <log id="_log1" message="{{conf.data}}"/>
+        </route>
+    </camelContext>
+</blueprint>
