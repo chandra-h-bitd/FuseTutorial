@@ -1,2 +1,0 @@
-list -t 0 -l|grep git
-

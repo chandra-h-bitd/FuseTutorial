@@ -1,6 +1,0 @@
-|NAME                     |ADDRESS                  |CONSUMER_COUNT |MESSAGE_COUNT |MESSAGES_ADDED |DELIVERING_COUNT |MESSAGES_ACKED |
-|$.artemis.internal.sf.static-cluster.a13e8db5-4a24-11e9-b08d-fe5400a2679e|$.artemis.internal.sf.static-cluster.a13e8db5-4a24-11e9-b08d-fe5400a2679e|0              |0             |0              |0                |0              |
-|$.artemis.internal.sf.static-cluster.d910ddd6-4a24-11e9-9cad-fe5400a2679e|$.artemis.internal.sf.static-cluster.d910ddd6-4a24-11e9-9cad-fe5400a2679e|0              |0             |0              |0                |0              |
-|DLQ                      |DLQ                      |0              |0             |0              |0                |0              |
-|ExpiryQueue              |ExpiryQueue              |0              |0             |0              |0                |0              |
-|activemq.management.afafa273-0f03-4722-a924-0725d0d37ae3|activemq.management.afafa273-0f03-4722-a924-0725d0d37ae3|1              |0             |0              |0                |0              |

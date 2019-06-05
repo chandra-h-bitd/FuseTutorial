@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=/home/adongre/.bomgar-rep/remotesupport.redhat.com/bomgar-rep
-Icon=/home/adongre/.bomgar-rep/remotesupport.redhat.com/pixmaps/square_logo.svg
-Name=Bomgar Representative Console - remotesupport.redhat.com
-Categories=Office;X-Mandrake-Office;X-Mandriva-Office;
